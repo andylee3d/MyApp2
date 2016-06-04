@@ -43,7 +43,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btnreturnMain"
-        android:text="계산하기"/>
+        android:text="메인으로"/>
 
 
     <TextView
