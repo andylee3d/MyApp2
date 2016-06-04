@@ -49,6 +49,12 @@
         android:layout_margin="10dp"
         android:text="나머지값"
         android:id="@+id/btnRest"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="메인으로"
+        android:id="@+id/btnreturnMain" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
