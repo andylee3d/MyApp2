@@ -10,6 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.user.myapp2.R;
+import com.example.user.myapp2.main.MainActivity;
 
 public class CalcActivity extends Activity implements View.OnClickListener {
 
