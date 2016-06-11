@@ -11,7 +11,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.user.myapp2.R;
-import com.example.user.myapp2.main.MainActivity;
 
 public class KaupActivity extends Activity implements  View.OnClickListener{
     EditText etName,etWeight,etHeight;
