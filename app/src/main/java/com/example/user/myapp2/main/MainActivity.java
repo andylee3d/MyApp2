@@ -12,6 +12,7 @@ import com.example.user.myapp2.R;
 import com.example.user.myapp2.calc.CalcService;
 import com.example.user.myapp2.calc.CalcServiceImpl;
 import com.example.user.myapp2.kaup.KaupActivity;
+import com.example.user.myapp2.signup.SignupActivity;
 
 
 public class MainActivity extends Activity implements View.OnClickListener{
@@ -25,6 +26,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         ((Button) findViewById(R.id.btKaup)).setOnClickListener(this);
         ((Button) findViewById(R.id.btnCalc)).setOnClickListener(this);
         ((Button) findViewById(R.id.btLogin)).setOnClickListener(this);
+        ((Button) findViewById(R.id.btSignup)).setOnClickListener(this);
 
     }
 
@@ -39,6 +41,9 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 break;
             case R.id.btLogin:
                 startActivity(new Intent(this, KaupActivity.class));
+                break;
+            case R.id.btSignup:
+                startActivity(new Intent(this, SignupActivity.class));
                 break;
 
         }
